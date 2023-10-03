@@ -1,0 +1,53 @@
+
+input[type="radio"] {
+    display: none;
+}
+.new-radio{
+    display: inline-block;
+    width: 2vw;
+    height: 2vw;
+    border-radius: 2vw;
+    margin-right: 10px; /* Add some spacing between the radio buttons */
+    cursor: pointer;
+}
+.new-radio:hover
+{
+
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+.new-radio:active
+{
+    border: 1px solid #333;
+}
+input[type="radio"]:checked + .new-radio {
+    border: 2px solid #333;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+#red
+{
+    background-color: red;
+}
+#blue
+{
+    background-color: deepskyblue;
+}
+#green
+{
+    background-color: mediumseagreen;
+}
+#purple
+{
+    background-color: mediumpurple;
+}
+#pink
+{
+    background-color: pink;
+}
+#grey
+{
+    background-color: lightslategray;
+}
+#white
+{
+    background-color: white;
+}

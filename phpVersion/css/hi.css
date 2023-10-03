@@ -1,0 +1,58 @@
+@charset "UTF-8";
+/*Sets size of slide show*/
+.bg-img, .backgroundTopper{
+    height: 100vw;
+    width: 99.1vw;
+    object-fit: cover;
+    filter: brightness(0.6);
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+/*Sets the top image on the nav bar on the pages that aren't home*/
+.backgroundTopper {
+    height: 10vw;
+}
+
+/*Establishes room for the body without picture*/
+body {
+    height: 2500px;
+}
+/*Styling the text on the slideshow*/
+.homePage  h2 {
+    color: white;
+    text-align: center;
+    font-size: 900%;
+    font-family: "Segoe UI Symbol";
+    padding-top: 90px;
+}
+
+.homePage h3 {
+    color: lightgrey;
+    text-align: center;
+    font-family: monospace;
+    font-size: 400%;
+    padding-top: 150px;
+}
+
+/*Styling the grey block of text*/
+.homePage p {
+    background-image: url("grey_background.png") ;
+    width: 70vw;
+    margin-left: 10%;
+    height: 400px;
+    text-align: left;
+    color: white;
+    font-size: 250%;
+    padding-top: 2.5%;
+    padding-left: 1%;
+}
+
+/*Styling the "Information coming soon" letters*/
+.card-body {
+    text-align: center;
+    font-size: 200%;
+}
+

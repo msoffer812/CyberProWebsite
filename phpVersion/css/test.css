@@ -1,0 +1,14 @@
+.split
+{
+    padding-top:20vh;
+}
+.profile-show
+{
+    display: inline-block;
+    width: 6vw;
+    float:left;
+    height: 6vw;
+    border-radius: 6vw;
+    margin-right: 10px;
+    cursor: pointer;
+}
